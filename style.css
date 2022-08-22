@@ -1,3 +1,91 @@
-body {
-  background-color: purple;
+* {
+    margin: 0;
+    padding: 0;
+    font: 20px italic;
+    display: block;
+        
 }
+
+body {
+    display: block;
+}
+head {
+    display: none;
+}
+
+.header {
+    background: rgba(156, 231, 185, 0.27);
+    padding: 52px;
+    display: block;
+    
+    
+    
+    }
+
+img {
+    max-width: 150px;
+    border-radius: 30%;
+    margin-left: 50px;
+}    
+
+.popup__img {
+    height: 40px;
+}
+
+
+.nav__li, .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 365px;
+    max-width: fit-content;
+    
+}
+
+.header__flex {
+    display: flex;
+    /*justify-content: ;*/
+    align-items: center;
+    
+}
+ul {
+    list-style-type: none;
+}
+
+.nav__img {
+    max-width: 30px;
+}
+
+#popup__checkbox, #popup__checkbox__more {
+
+    /*-webkit-appearance: none;
+     -moz-appearance: none; /*for mozilla, but may be will work without it*/
+     /*   appearance: none;*/
+        position: relative;
+        
+    }
+
+#popup__checkbox:checked ~ .popup__list {  
+       
+    top: 0;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(15, 70, 49);
+    }
+
+    .popup__list, .popup__item {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top: -999px;
+    } 
+
+    .popup__ul, .popup__ul__more {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
