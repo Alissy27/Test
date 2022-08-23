@@ -131,13 +131,13 @@
     background-color: blueviolet;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
     .header {
         padding: 20px;
     }
 
     .header__flex{
-        max-width: 550px;
+        max-width: 480px;
         flex-direction: column-reverse;
         justify-content: left;
         margin-left: 10px;
