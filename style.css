@@ -155,4 +155,7 @@
     top: 50px;
 
     }
+    .popup__ul,.popup__ul__more {
+     grid-template-columns: repeat(2, 1fr);
+    }
 }
