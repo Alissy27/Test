@@ -33,7 +33,7 @@
     margin-left: 15px;
 }
 
-.nav__popup label{
+.nav__popup label__checkbox {
     cursor:pointer;
 }
 
